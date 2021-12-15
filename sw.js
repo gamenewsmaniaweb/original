@@ -3,7 +3,9 @@ const cacheName = 'my-cache';
 
 // put the static assets and routes you want to cache here
 const filesToCache = [
- 'https://rawcdn.githack.com/gamenewsmaniaweb/webff/126a90868bf868b0b634a2b992bf19d0709c842c/index.html',      'https://rawcdn.githack.com/gamenewsmaniaweb/web/a7b63ff8a3d7a574d62ccfe5f04dfc59430784c1/style.css'
+ '/',
+ 'https://rawcdn.githack.com/gamenewsmaniaweb/webff/126a90868bf868b0b634a2b992bf19d0709c842c/index.html',    
+ 'https://rawcdn.githack.com/gamenewsmaniaweb/web/a7b63ff8a3d7a574d62ccfe5f04dfc59430784c1/style.css'
               ];
 // the event handler for the activate event
 self.addEventListener('activate', e => self.clients.claim());
